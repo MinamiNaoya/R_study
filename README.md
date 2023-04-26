@@ -4,4 +4,4 @@
 使用薬物：sulfamethizole
 ### 検量線の回帰直線の求め方
 最小二乗法を利用する。
-$$m=/frac{/sum(x)}{/sum(x)} $$
+$$m=\frac{\sum(x)\sum(xy)-n \sum(xy)}{[\sum(x)]^2-n\sum(x^2)} $$
