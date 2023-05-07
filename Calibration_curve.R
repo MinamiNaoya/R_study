@@ -1,11 +1,10 @@
 library(ggplot2)
-
+sample_count <- 8
 cat("Enter integer data, separated by spaces:\n")
 # 吸光度の入力
-new_absorbance <- scan(file = stdin(), n = 8)
+new_absorbance <- scan(file = stdin(), n = sample_count)
 new_absorbance
 df <- data.frame(absorbance = new_absorbance, sulfa_concentration = c(0, 1, 2, 4, 6, 8, 12, 16))
-
 df
 
 # 最小二乗法で回帰直線y=mx+bのmとbを求める。
