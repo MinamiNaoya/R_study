@@ -9,3 +9,7 @@
 $$m=\frac{\sum(x)\sum(xy)-n \sum(xy)}{[\sum(x)]^2-n\sum(x^2)} $$
 
 $$ b=\frac{\sum(x)\sum(xy)-\sum(x^2)\sum y}{[\sum(x)]^2-n \sum(x^2)}$$
+
+
+## blood_concentration.R
+吸光度から血中濃度を求める計算を行う。
