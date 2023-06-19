@@ -13,3 +13,6 @@ $$ b=\frac{\sum(x)\sum(xy)-\sum(x^2)\sum y}{[\sum(x)]^2-n \sum(x^2)}$$
 
 ## blood_concentration.R
 吸光度から血中濃度を求める計算を行う。
+
+## local_anesthetic.R
+実験データで手技の失敗からデータが得られなかった部分を欠損値として扱って、多重代入法で補完する。
